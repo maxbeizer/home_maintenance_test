@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: home_maintenance_action
-        uses: maxbeizer/home_maintenance@74427a832553274d20e05b21a34f93bf71628994
+        uses: maxbeizer/home_maintenance@21fd780103f9acf021345d814a54d9f683729eef
         with:
           repo-nwo: 'maxbeizer/home_maintenance_test'
           github-token: ${{ secrets.GITHUB_TOKEN }}
