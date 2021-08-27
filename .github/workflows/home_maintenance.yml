@@ -14,3 +14,5 @@ jobs:
         with:
           repo-nwo: 'maxbeizer/home_maintenance_test'
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          time-frame: 'all'
+          path-to-data: './tasks.csv'
