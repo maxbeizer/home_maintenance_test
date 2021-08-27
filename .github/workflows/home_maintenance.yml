@@ -10,7 +10,7 @@ jobs:
     name: create maintenance issues
     steps:
       - name: home_maintenance_action
-        uses: maxbeizer/home_maintenance@2d13daa6bfe39e21871ea09591d482fb214da698
+        uses: maxbeizer/home_maintenance@e3d5a413aac195bb8f742b1b236f93ef2ddcca3a
         with:
           repo-nwo: 'maxbeizer/home_maintenance_test'
           github-token: ${{ secrets.GITHUB_TOKEN }}
