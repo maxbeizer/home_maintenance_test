@@ -1,0 +1,16 @@
+name: Home Maintenance
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  maintenance:
+    runs-on: ubuntu-latest
+    name: create maintenance issues
+    steps:
+      - name: home_maintenance_action
+        uses: maxbeizer/home_maintenance@main
+        with:
+          repo-nwo: 'maxbeizer/home_maintenance_test'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
