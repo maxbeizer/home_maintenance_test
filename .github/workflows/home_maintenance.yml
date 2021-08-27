@@ -12,9 +12,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: home_maintenance_action
-        uses: maxbeizer/home_maintenance@21fd780103f9acf021345d814a54d9f683729eef
+        uses: maxbeizer/home_maintenance@674103922289ceeba70bea85665ce3af6cbd9d70
         with:
           repo-nwo: 'maxbeizer/home_maintenance_test'
           github-token: ${{ secrets.GITHUB_TOKEN }}
           time-frame: 'all'
-          path-to-data: './tasks.csv'
+          path-to-data: 'tasks.csv'
